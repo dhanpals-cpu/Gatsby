@@ -3,10 +3,10 @@ import React from "react"
 import { jsx,Card,Image,Text,Grid,Box,Heading } from "theme-ui"
 export default (props) => (
     <div>
-         <Image src="https://avengering.com/wp-content/uploads/2019/04/source-1.gif" style={{width:'100%'}} />
+         <Image src="https://avengering.com/wp-content/uploads/2019/04/source-1.gif" style={{width:"100%"}} />
           <div  sx={{
-            textAlign:'center',
-            maxWidth:'100%',
+            textAlign:"center",
+            maxWidth:"100%",
             marginTop:"20px"
             }}>
             <Heading>Our Services</Heading>

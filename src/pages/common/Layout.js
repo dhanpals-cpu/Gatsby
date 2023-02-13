@@ -6,20 +6,20 @@ import HeaderCommon from "./Header"
 export default (props) => (
     <div
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        minHeight: '100vh',
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
       }}>
      <HeaderCommon />
       <main
         sx={{
-          width: '100%',
-          flex: '1 1 auto',
+          width: "100%",
+          flex: "1 1 auto",
         }}>
         <div
           sx={{
             maxWidth: '100%',
-            mx: 'auto',
+            mx: "auto",
             px: 3,
           }}>
           {props.children}
@@ -27,7 +27,7 @@ export default (props) => (
       </main>
       <footer
         sx={{
-          width: '100%',
+          width: "100%",
         }}>
         <Footer />
       </footer>
